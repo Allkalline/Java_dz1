@@ -13,6 +13,7 @@ public class zad1 {
              sum += i;
              mult = mult*i;
         }
+        str.close();
         System.out.println("Сумма чисел от 1 до " + n + " = " + sum);
         System.out.println("Произведение чисел от 1 до " + n + " = " + mult);
         
